@@ -14,13 +14,13 @@ function kht($kht)
 
     if(mysqli_connect_errno())
     {
-        echo "error ocured in database";
+        echo "error occurred in database";
         echo mysqli_connect_errno();
     }
 
     if(mysqli_connect_error() == 1)
     {
-        echo "error ocured in database";
+        echo "error occurred in database";
         echo mysqli_connect_error();
     }
 
